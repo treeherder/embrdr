@@ -10,7 +10,22 @@ __________________________________
 ### Reference:
  http://www.achatina.de/sewing/main/TECHNICL.HTM
 
-1.  EXP Format:
+1.  Melco EXP Format:
+
+
+
+   +  Design data starts at 0 HEX, with first Byte in file numbered 0 (zero)
+
+   +  Two Bytes per normal stitch, four bytes per jump stitch or color change
+
+   +  max. stitch length hex 7F = 127 = 12.7 mm = 1/2"
+
+   +  negative numbers are stored as 2-complement (signed 8-bit)
+
+   +  color change codes : 80 NN MM MM , where NN is any ODD number
+
+   +  jump records : 80 NN MM MM , where NN is any even number 
+
 
 | address | Hex value | Explanation | Notes |
 | :---- | :---- | :---- | :---: |
