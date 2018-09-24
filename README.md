@@ -4,7 +4,7 @@ A free, open-source software application fro the development of machine embroide
 
 Current version provides support for EXP or DST file  formats.
 
-###Reference:
+### Reference:
 -------
   1. http://www.achatina.de/sewing/main/TECHNICL.HTM
 
